@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header-image{
+    background-image: url('../new-year-new-me/images/banner/banner1.png');
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+
+.header-text{
+    text-align: right;
+    width: 90%;
+    position: absolute;
+    margin-top:166px;
+    font-size: 30px;
+}
+.header-btn{
+    border: 0;
+    padding: 15px;
+    background-color: orangered;
+    color: white;
+    border-radius:4px;
+    font-size: 16px;
+    
+}
+.details-container{
+     display: flex;
+     justify-content: center;
+     justify-content: space-around;
+     margin-top: 140px;
+     align-items: center;
+}
+
+.details-text{
+    font-size: 16px;
+    margin: 10px;
+}
+h2{
+    text-align: center;
+}
