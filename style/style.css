@@ -68,7 +68,7 @@ button{
     position: relative;
     top: 135px;
     height: 400px;
-    
+    padding: 230px;
 }
 h3{
     font-size: 40px;
@@ -76,6 +76,30 @@ h3{
 }
 .call-details{
     position: absolute;
-    top:80px;
+    top:40%;
     left:20%;
+}
+.footer-container{
+    background-color: black;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+input{
+    display: block;
+    width: 325px;
+    height: 64px;
+    background: var(--Dark-01, #151414);
+    color: white;
+}
+.footer-details{
+    width: 20%;
+    color: white;
+    position: relative;
+}
+h4{
+    color: white;
 }
