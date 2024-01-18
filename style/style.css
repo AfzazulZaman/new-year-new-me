@@ -93,7 +93,10 @@ input{
     width: 325px;
     height: 64px;
     background: var(--Dark-01, #151414);
-    color: white;
+}
+input::placeholder {
+    color: #ffffff;
+    padding:0 10px;
 }
 .footer-details{
     width: 20%;
