@@ -40,3 +40,42 @@
 h2{
     text-align: center;
 }
+.plan-section{
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    text-align: center;
+    margin-top: 10%;
+}
+h2{
+    margin-top: 10%;
+}
+button{
+    border: none;
+    width: 160px;
+    height: 64px;
+    border-radius: 5px;
+    background: #FFF;
+    color: red;
+    font-weight:700;
+    font-weight: bolder;
+    font-size: 20px;
+}
+.call-section{
+    background-image: url('/new-year-new-me/images/gradient1.png'),url('/new-year-new-me/images/watch.png');
+    background-repeat: no-repeat;
+    background-position: center,center;
+    position: relative;
+    top: 135px;
+    height: 400px;
+    
+}
+h3{
+    font-size: 40px;
+    color: white;
+}
+.call-details{
+    position: absolute;
+    top:80px;
+    left:20%;
+}
